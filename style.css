@@ -1,0 +1,43 @@
+/* Root Code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-20{
+     margin:20px 0;
+}
+
+/* ////////////////////// */
+
+/* Header Style */
+.header{
+   font-weight: bolder;
+}
+
+/* unordered list style */
+ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #e0e0e0d6;
+    border: 1px solid #ccc;
+}
+
+/* unordered list Product List */
+ul li {
+    font-weight: bolder;
+    color: green;
+    letter-spacing: 0.6px;
+    margin: 5px 0;
+}
